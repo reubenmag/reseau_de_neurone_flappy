@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'game'))
 from game_engine import FlappyBirdEnv
 
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'neat_config.txt')
-N_GENERATIONS = 50
+N_GENERATIONS = 100
 
 
 def evaluate_genome(genome, config):
